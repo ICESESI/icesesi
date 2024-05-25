@@ -1,92 +1,527 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id-ID">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Phone sales</title>
-  <script src="jquery/jquery-3.3.1.js"></script>
-  <link rel="stylesheet" href="fontawesome-5.0.10/css/fontawesome-all.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="navbar" id="topnavbar">
-    <div class="container">
-      <div class="atas">
-        <a href="#" class="logo">Phone Sales</a>
-        <button class="btn-mb" onclick="openmenu()">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-      <div class="ml">
-        <ul class="nav-ul" id="navUl">
-          <li class="navbar-item">
-            <a href="#" class="link">home</a>
-          </li>
-          <li class="navbar-item">
-            <a href="#" class="link">news</a>
-          </li>
-          <li class="navbar-item">
-            <a href="#" class="link">pricing</a>
-          </li>
-          <li class="navbar-item dropdown-menu" id="dropdown-mn">
-            <button class="link dropdown-btn">product
-              <i class="fas fa-angle-down"></i>
-            </button>
-            <div class="dropdown-item" id="dropdown-itm">
-              <a href="#" class="dropdown-isi">ICESESI</a>
-              <a href="#" class="dropdown-isi">ICESESI</a>
-              <a href="#" class="dropdown-isi">ICESESI </a>
-              <a href="#" class="dropdown-isi">ICESESI</a>
-              <a href="#" class="dropdown-isi">ICESESI</a>
-            </div>
-          </li>
-          <li class="navbar-item">
-            <a href="#" class="link">about</a>
-          </li>
-          <li class="navbar-item">
-            <a href="JavaScript:void(0)" class="link btn-cn" id="btn-contact">contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="header">
-    <div class="container-hr">
-      <img src="img/Phone.png" alt="" class="gambar">
-      <div class="isi-judul">
-        <h1 class="display-1">Best website to shop Phone</h1>
-        <p class="desc">Phone Sales best a website to shop your new phone in this website,join now with milions people in the world and get your new phone.</p>
-        <a href="JavaScript:void(0)" class="btn btn-white btn-rounded btn-costum-header">login</a><a href="JavaScript:void(0)" class="btn btn-lightblue btn-rounded btn-costum-header">sign up</a>
-      </div>
-    </div>
-  </div>
-  <div class="main-body">
-    <div class="box-content">
-      <div class="content-item">
-        <h2 class="display-content"><i class="fas fa-shield-check"></i>Original product</h2>
-        <p class="display-content-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officiadeserunt mollit anim id est laborum.</p>
-        <a href="JavaScript:void(0)" class="btn btn-lightblue-outline">learn more <i class="fal fa-arrow-alt-circle-right"></i></a>
-      </div>
-      <img src="img/Phone.png" alt="" class="gambar-content">
-    </div>
-    <div class="box-content">
-      <img src="img/free-ongkir-t.png" alt="" class="gambar-content img-content-left">
-      <div class="content-item content-item-right">
-        <h2 class="display-content"><i class="fas fa-shield-check"></i>Free ongkir</h2>
-        <p class="display-content-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officiadeserunt mollit anim id est laborum.</p>
-        <a href="JavaScript:void(0)" class="btn btn-lightblue-outline">learn more <i class="fal fa-arrow-alt-circle-right"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="end-label">
-    <span class="end-label-text">Copyright 2019 - Ms.ambari</span>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
-<audio controls autoplay>
-  <source src="Rewrite_The_Stars_-_8D_Audio(256k).mp3" type="img/Rewrite_The_Stars_-_8D_Audio(256k).mp3">
-  <source src="Rewrite_The_Stars_-_8D_Audio(256k).mp3" type="img/Rewrite_The_Stars_-_8D_Audio(256k).mp3">
-  Your browser does not support the audio element.
-</audio>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#c1272d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://digiplay.id/uploads/202205/Icon_DigiPlay_2022.svg" />
+<link rel="apple-touch-icon" href="https://digiplay.id/uploads/202205/Icon_DigiPlay_2022.svg" />
+<meta name="msapplication-TileImage" content="https://digiplay.id/uploads/202205/Icon_DigiPlay_2022.svg" />
+<title>ICEDRAGONSTORE - Website</title>
+<meta property="og:site_name" content="DigiPlay" />
+<meta property="og:image" content="https://digiplaycdn.b-cdn.net/assets/images/Default-Cover.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="google-site-verification" content="bODnBR0iNRQRFOsT1Cas5z5Hti0esnnBw61Eu1WZMfQ" />
+<script src="https://kit.fontawesome.com/e44bfdb409.js" crossorigin="anonymous"></script>
+<link href="https://digiplaycdn.b-cdn.net/bootstrap/custom/css/custom.css?v=2.6.4" rel="stylesheet">
+<link rel="stylesheet" href="https://digiplaycdn.b-cdn.net/assets/css/front.style.css?v=2.6.4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://digiplaycdn.b-cdn.net/plugins/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://digiplaycdn.b-cdn.net/bootstrap/custom/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://digiplaycdn.b-cdn.net/assets/js/main.js?v=2.6.4"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11360966921">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11360966921');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TCQC8BLR');</script>
+</div>
+</div>
+<div id="navbar" class="fixed-top">
+<header id="masthead" class="site-header" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<div class="container">
+<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-between py-3 site-header">
+<a href="/" class="d-flex align-items-center col-md-3 mb-0 mb-md-0 text-dark text-decoration-none navbar-brand" itemprop="url" title="DigiPlay">
+<img src="https://digiplay.id/assets/images/Logo-DigiPlay-2022.svg" alt="DigiPlay" title="DigiPlay" height="36">
+</a>
+<div class="d-flex gap-2">
+<div class="button-show-search">
+<i class="fas fa-search"></i>
+</div>
+<div class="button-show-menu">
+<i class="fas fa-bars"></i>
+</div>
+</div>
+</div>
+</header>
+</div>
+<div class="container">
+<div class="row align-items-center hero-content">
+<div class="col-12 col-md-6">
+<div class="py-4 text-black home-badge-content-description">
+<h1 class="fw-600">
+<span class="text-primary">ICESESI:</span> ICESESI. </h1>
+</div>
+</div>
+<link rel="stylesheet" href="https://digiplaycdn.b-cdn.net/assets/css/swiper-theme-default.css?v=2.6.4">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<div class="col-12 col-md-6 container-swiper">
+<div class="swiper slider-banner">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<a href="#" class="slide-banner img">
+<img class="lazy lazy-loader" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg" data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Promo_All_Game_11_14_2023.png?width=556" />
+</a>
+</div>
+</div>
+<div class="swiper-pagination-slide-banner swiper-pagination"></div>
+</div>
+</div>
+<script>
+                    var swiper = new Swiper('.slider-banner', {
+                        //slidesPerView: "auto",
+                        //centeredSlides: true,
+                        speed: 300,
+                        loop: true,
+                        spaceBetween: 0,
+                        autoplay: {
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        },
+                        lazy: {
+                            loadOnTransitionStart: true,
+                            loadPrevNext: true,
+                            loadPrevNextAmount: 1,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination-slide-banner',
+                            type: 'bullets',
+                        },
+
+                    });
+                </script>
+</div>
+</div>
+</section>
+<main id="main" class="site-main" role="main">
+<section class="game-populer-section pt-5">
+<div class="container">
+<div class="mb-4 section-title">
+<div class="fs-15 fw-600 text-uppercase text->
+</div>
+</div>
+</section>
+<script>
+            var swiper = new Swiper('.slider-promo-code', {
+                //slidesPerView: "auto",
+                //centeredSlides: true,
+                slidesPerView: 3,
+
+                speed: 300,
+
+                lazy: {
+                    loadOnTransitionStart: true,
+                    loadPrevNext: true,
+                    loadPrevNextAmount: 1,
+                },
+                pagination: {
+                    el: '.swiper-pagination-slide-banner',
+                    type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next-promo-code',
+                    prevEl: '.swiper-button-prev-promo-code',
+                },
+                breakpoints: {
+                    240: {
+                        slidesPerView: 1,
+
+                    },
+                    640: {
+                        slidesPerView: 1,
+
+                    },
+                    768: {
+                        slidesPerView: 1,
+
+                    },
+                    1024: {
+                        slidesPerView: 3,
+
+                    },
+                },
+
+            });
+        </script>
+
+</div>
+</div>ICEDRAGONSTORE </div>
+<h2 class="display-6 fw-500 fs-3">
+ALL SERVICE</h2>
+<p class="mb-0">
+Top Up berbagai macam Game murah dan terpercaya. Berikut adalah daftar Game yang siap untuk kamu order secara instant yang didukung dengan berbagai macam sistem pembayaran. </p>
+</div>
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+<article class="swiper-slide" itemscope="itemscope" itemtype="https://digiplaycdn.b-cdn.net/assets/images/Default-Cover.png">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Mobile Legends" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/assets/images/Default-Cover.png" src="https://digiplaycdn.b-cdn.net/assets/images/Default-Cover.png" class="lazy lazy-loader card-img-top" title="Mobile Legends" itemprop="https://digiplaycdn.b-cdn.net/assets/images/Default-Cover.png" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Mobile-Legends-Bang-Bang.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Mobile Legends" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Mobile Legends </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Moonton </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Free Fire" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-Free-Fire.jpg?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Free Fire" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Free-Fire.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Free Fire" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Free Fire </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Garena International I </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+<img src="https://digiplay.id/assets/images/Lagi-Promo-Badge.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Genshin Impact" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-Genshin-Impact.jpg?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Genshin Impact" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Genshin-Impact.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Genshin Impact" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Genshin Impact </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+COGNOSPHERE PTE. LTD. </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Call of Duty Mobile" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-Call-of-Duty-Mobile-Garena.png?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Call of Duty Mobile" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Call-of-Duty-Mobile-Garena.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Call of Duty Mobile" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Call of Duty Mobile </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Garena Mobile Private </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+<img src="https://digiplay.id/assets/images/Lagi-Promo-Badge.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="PUBG MOBILE (Indonesia)" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-PUBG-MOBILE.jpg?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="PUBG MOBILE (Indonesia)" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/PUBG-MOBILE.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="PUBG MOBILE (Indonesia)" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+PUBG MOBILE (Indonesia) </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Level Infinite </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Ragnarok M: Eternal Love" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-Ragnarok-M-Eternal-Love.jpg?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Ragnarok M: Eternal Love" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Ragnarok-M-Eternal-Love.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Ragnarok M: Eternal Love" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Ragnarok M: Eternal Love </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Gravity Interactive, Inc. </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Tom and Jerry: Chase" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Background-Tom-and-Jerry-Chase.jpg?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Tom and Jerry: Chase" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Tom-and-Jerry-Chase.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Tom and Jerry: Chase" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Tom and Jerry: Chase </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+NetEase Games </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</div>
+<meta itemprop="mpn" content="380" />
+<div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
+<meta itemprop="reviewCount" content="1" />
+<meta itemprop="ratingValue" content="5.0" />
+</div>
+<div itemprop="review" itemtype="https://schema.org/Review" itemscope>
+<div itemprop="author" itemtype="https://schema.org/Person" itemscope>
+<meta itemprop="name" content="Muhammad Rafly" />
+</div>
+<div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
+<meta itemprop="ratingValue" content="5" />
+<meta itemprop="bestRating" content="5" />
+</div>
+</div>
+<meta itemprop="sku" content="TAJC" />
+<meta itemprop="description" content="Top up diamonds Tom and Jerry: Chase sekarang juga! agar permainan mu menjadi lebih seru dengan...." />
+<div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+<meta itemprop="lowPrice" content="14250" />
+<meta itemprop="highPrice" content="1406310" />
+<meta itemprop="offerCount" content="16" />
+<meta itemprop="priceCurrency" content="IDR" />
+</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Dragon Raja - SEA" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Background-Dragon-Raja-SEA.png?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Dragon Raja - SEA" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Dragon-Raja-SEA.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Dragon Raja - SEA" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Dragon Raja - SEA </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Archosaur Games </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Super Sus" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Background-Super-Sus-Siapakah-Penipu-Itu.png?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Super Sus" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Super-Sus-Siapakah-Penipu-Itu.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Super Sus" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Super Sus </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+PIProductions </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
+</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Garena Undawn" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Background-Garena-Undawn.png?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Garena Undawn" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202310/Garena-Undawn.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Garena Undawn" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Garena Undawn </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Garena Mobile Private </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</
+</div>
+</a>
+</article><article class="swiper-slide" itemscope="itemscope" itemtype="https://schema.org/Product">
+<a class="text-decoration-none text-reset" href="#" itemprop="url" title="Clash of Clans" rel="bookmark">
+<div class="card cbm-section-shadow-sm product-item-section-box rounded-3 border-0 h-100 overflow-hidden card-animate">
+<div class="card-img-relative hide-mobile">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Background-Clash-of-Clans.png?width=276" src="https://digiplaycdn.b-cdn.net/assets/images/cover-lazyload.jpg?width=276" class="lazy lazy-loader card-img-top" title="Clash of Clans" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+<div class="product-item-detail card-body row align-items-center g-0">
+<div class="col-12 col-md-4">
+<div class="card-img-inside-card-body">
+<img data-src="https://digiplaycdn.b-cdn.net/uploads/202311/Clash-of-Clans.png?width=100" src="https://digiplaycdn.b-cdn.net/assets/images/thumbnail-lazyload.jpg?width=63" class="lazy lazy-loader card-img-top" title="Clash of Clans" itemprop="image" rel="bookmark">
+<div class="card-img-mask">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-8 text-center text-md-start mt-2 mt-md-0">
+<h3 class="entry-title product-item-title" itemprop="name">
+Clash of Clans </h3>
+<div class="text-muted mt-0 product-item-developer" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="itemscope">
+<div itemprop="name">
+Supercell </div>
+</div>
+<div class="product-item-badge">
+<img src="https://digiplay.id/assets/images/Proses-Kilat-Tanda.svg" />
+</div>
+</div>
+</div>
+<div class="btn-topup-product-item">TOP UP</div>
