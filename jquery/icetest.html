@@ -1,107 +1,17 @@
-Error 27257 Pending web_reg_save_param........ During replay of script then script aborts
-179 paparan
-Langgan 
-Foto profil Lance Day
-Lance Day
-belum dibaca,
-23/08/13
-kepada LR-Loa...@googlegroups.com
-When replaying the script pasted below, after the first iteration the error message below shows in the output file and the script aborts.;  If I comment out the last web_reg_find the reply runs without being aborted or errors.  Any thoughts on this out there?
- 
-ERROR:
-Error -27257: Pending web_reg_save_param/reg_find/create_html_param[_ex] request(s) detected and reset at the end of iteration number 1   [MsgId: MERR-27257]
- 
-SCRIPT:
-Action()
-{
-
-    lr_start_transaction("Search_1");
-
-    web_url("sp1005039d.guided.ss-omtrdc.net", 
-        "URL=http://sp1005039d.guided.ss-omtrdc.net/?q={Search_Terms}", 
-        "Resource=0", 
-        "RecContentType=text/xml", 
-        "Referer=", 
-        "Snapshot=t1.inf", 
-        "Mode=HTML", 
-        LAST);
-
-        web_reg_find("Text=</customer-results>",
-        LAST);
-
-    lr_end_transaction("Search_1", LR_AUTO);
-
-    lr_think_time(2);
-
-    lr_start_transaction("Search_2");
-    
-    web_url("sp1005039d.guided.ss-omtrdc.net_2", 
-        "URL=http://sp1005039d.guided.ss-omtrdc.net/?q={Search_Terms}", 
-        "Resource=0", 
-        "RecContentType=text/xml", 
-        "Referer=", 
-        "Snapshot=t2.inf", 
-        "Mode=HTML", 
-        LAST);
-    
-        web_reg_find("Text=</customer-results>",
-        LAST);
-    
-    lr_end_transaction("Search_2", LR_AUTO);
-
-    lr_think_time(2);    
-    
-    lr_start_transaction("Search_3");
-
-    web_url("sp1005039d.guided.ss-omtrdc.net_3", 
-        "URL=http://sp1005039d.guided.ss-omtrdc.net/?q={Search_Terms}", 
-        "Resource=0", 
-        "RecContentType=text/xml", 
-        "Referer=", 
-        "Snapshot=t3.inf", 
-        "Mode=HTML", 
-        LAST);
-    
-        web_reg_find("Text=</customer-results>",
-        LAST);
-    
-    lr_end_transaction("Search_3", LR_AUTO);
-
-    lr_think_time(2);
-    
-    lr_start_transaction("Search_4");
-
-    web_url("sp1005039d.guided.ss-omtrdc.net_4", 
-        "URL=http://sp1005039d.guided.ss-omtrdc.net/?q={Search_Terms}", 
-        "Resource=0", 
-        "RecContentType=text/xml", 
-        "Referer=", 
-        "Snapshot=t4.inf", 
-        "Mode=HTML", 
-        LAST);
-    
-        web_reg_find("Text=</customer-results>",
-        LAST);
-
-    lr_end_transaction("Search_4", LR_AUTO);
-    
-    lr_think_time(2);
-    
-    lr_start_transaction("Search_5");
-
-    web_url("sp1005039d.guided.ss-omtrdc.net_5", 
-        "URL=http://sp1005039d.guided.ss-omtrdc.net/?q={Search_Terms}", 
-        "Resource=0", 
-        "RecContentType=text/xml", 
-        "Referer=", 
-        "Snapshot=t5.inf", 
-        "Mode=HTML", 
-        LAST);
-
-        web_reg_find("Text=</customer-results>",
-        LAST);
-    
-    lr_end_transaction("Search_5", LR_AUTO);
-
-    return 0;
-}
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pending Order Form</title>
+</head>
+<body>
+    <h2>Pending Order Form</h2>
+    <form action="/submit_order" method="post">
+        <label for="product">Product:</label><br>
+        <input type="text" id="product" name="product"><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+        <input type="submit" value="Submit Order">
+    </form>
+</body>
+</html>
