@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5B3B5N27');
+
+    !function (w, d, t) {
+        w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"], ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++)ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) {
+            for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++
+            )ttq.setAndDefer(e, ttq.methods[n]); return e
+        }, ttq.load = function (e, n) { var i = "https://analytics.tiktok.com/i18n/pixel/events.js"; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = i, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; n = document.createElement("script"); n.type = "text/javascript", n.async = !0, n.src = i + "?sdkid=" + e + "&lib=" + t; e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(n, e) };
+
+        ttq.load('CG4O91JC77U656O64800');
+        ttq.page();
+    }(window, document, 'ttq');
+</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<title>Free Fire Diamond Top Up | Fast Recharge, Recommend By Pro Players - GAMEJUS</title>
+<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+<link rel="stylesheet" href="/lib/jquery-ui/jquery-ui.min.css" />
+<link rel="stylesheet" href="/css/site.css?v=_9-z9Lyvg6aDC77hVRBSdLkWCoqNKEIhl0GM9qF38RM" />
+<link rel="shortcut icon" href="/img/Gamejus logo.png" />
+    
+        <meta name="keywords" content="free fire, free fire diamond, free fire diamond top up, free fire diamond recharge, free fire top up, free fire recharge, free fire cheap diamond, how to top up free fire diamond, free fire garena, garena free fire, free fire diamond murah" />
+        <meta name="description" content="Get Free Fire Diamond top up offer here in store! Fast Diamond recharge in less than 3 min! Safe platform trusted by multiple pro gamers, claim your Diamond now!" />
+    <link rel="stylesheet" href="/css/product.css" />
+
+</head>
+<body class="main">
+    <!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B3B5N27"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="wrapper">
+            <nav id="sidebar">
+        <div class="side-title">
+            Welcome
+        </div>
+        <div class="side-content">
+            <ul class="components">
+                <li>
+                    <a class="" href="/Profile/Signin"><i class="nav-icon fa-solid fa-user"></i> Sign In</a>
+                </li>
+                <li>
+                    <a class="" href="/Profile/Signup"><i class="nav-icon fa-solid fa-circle-user"></i> Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<div class="overlay"></div>
+<div class="loader">
+    <img src='/img/Gamejus Logo H_Small Cap.webp' alt="Loading" /><div class="preloader"></div>
+</div>
+        <div id="content" class="full-height">
+            <header>
+                <nav class="navbar navbar-expand navbar-dark bg-custblue box-shadow fixed-top nav-high pb-0">
+    <div class="container navigation-section">
+        <div class="flex-row">
+            <button type="button" id="sidebarCollapse" class="btn bars">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#" onclick="navAction('/', 'Free Fire Diamond Top Up | Fast Recharge, Recommend By Pro Players')">
+                <img src="/img/Gamejus Logo H_Small Cap.webp" alt="GameJus" id="title-logo" />
+            </a>
+        </div>
+        <div class="flex-row-reverse">
+            <input type="hidden" name="rateId" id="rateId" value="" />
+            <input type="hidden" name="rate" id="rate" value="" />
+            <input type="hidden" name="currency" id="currency" value="" />
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="btn-group h-100 py-2">
+                        <button type="button" class="btn btn-outline-light font-weight-bold dropdown-toggle header-btn rate-section" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span id="region"></span>
+                        </button>
+                        <div class="dropdown-menu currency-dropdown dropdown-menu-right" id="currency-dropdown">
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item nv-icon">
+                    <div class="btn-group h-100">
+                        <button class="nav-link text-light notification"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                            <span class="badge" id="bell-badge"></span>
+                        </button>
+                        <div class="dropdown-menu notice-dropdown dropdown-menu-right" id="notice-dropdown"></div>
+                    </div>
+                </li>
+                <li class="nav-item nv-icon">
+                    <button id="shopping-section" class="nav-link text-light notification" onclick="navAction('/product/view/Checkout', 'Free Fire Diamond Top Up | Fast Recharge, Recommend By Pro Players')">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="badge" id="shop-badge"></span>
+                    </button>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-grow-1"></ul>
+        </div>
+    </div>
+</nav>
+<div class="rolling-text d-none"><p id="rolling-text"></p></div>
+<div class="empty"></div>
+                
+    <nav class="navbar navbar-expand navbar-light bg-white border-bottom box-shadow search-bar">
+        <div class="container">
+    <div class="flex-row">
+            <ul class="navbar-nav">
+                <li>
+                    <button class="btn rounded-pill bg-custblue2 text-light font-weight-bold back-btn" onclick="toBack()">Back</button>
+                </li>
+            </ul>
+    </div>
+    <div class="flex-row-reverse">
+        <ul class="navbar-nav flex-grow-1"></ul>
+        <ul class="navbar-nav">
+            <!-- Search bar-->
+            <li>
+                <div class="input-group">
+                    <input id="global-search" class="form-control rounded-pill py-2 pr-5 mr-1 bg-transparent border-secondary" type="search" placeholder="Search">
+                    <div class="input-group-append">
+                        <span class="input-group-text border-0 bg-transparent ml-n5"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    </nav>
+    <div class="header py-3 search-hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="gm-img">
+                            <img src="https://gamejus.com/uploads/freefire_cover_250x250 copy20240115174040.webp" alt="Free Fire (Malaysia)" />
+                    </div>
+                </div>
+                <div class="col-9 cust-line-height">
+                    <h2 class="text-light font-weight-bold">
+                        Free Fire (Malaysia)<br />
+                        - UID
+                    </h2>
+                    <small class="text-light max-lines">Free Fire, the world-famous survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other players, all seeking survival. Players freely choose their starting point with their parachute, and aim to stay in the safe zone for as long as possible. Drive vehicles to explore the vast map, hide in the wild, or become invisible by proning under grass or rifts. Ambush, snipe, survive, there is only one goal: to survive and answer the call of duty.</small><br />
+                    <small><a href="#" class="more-detail">More</a></small>
+                        <div class="row apps-url pt-3">
+                            <div class="col link-grid">
+                                <div class="align-items-center d-flex h-100 text-light">
+                                    <h5>Available on this: </h5>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex">
+                                        <div class="apps-link">
+                                                <a href="https://apps.apple.com/us/app/free-fire/id1300146617" target="_blank"><img src="/img/Apple store.png" /></a>
+                                        </div>
+                                        <div class="apps-link">
+                                                <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth" target="_blank"><img src="/img/Google store.png" /></a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <iframe src="https://ap-device-pro.csftr.com/shield-fp/v1/api/web/noscript?site_id=de728780893efc80f8a512edde44a392e38818b6" width="0" height="0" style="display:none"></iframe>
+    </noscript>
+
+            </header>
+            
+
+
+<div class="container vh-top h-100 search-hide">
+    <main role="main" class="pb-3" id="main">
+        <div class="row pt-4">
+            <div class="col-lg-8 col-12 paginate">
+                    <div class="row items" id="package"></div>
+                    <div class="pager text-center font-weight-bold">
+                        <div class="previousPage"><i class="fa-solid fa-angle-left"></i></div>
+                        <div class="pageNumbers"></div>
+                        <div class="nextPage"><i class="fa-solid fa-angle-right"></i></div>
+                    </div>
+
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <form id="purchase-form">
+                        <input type="hidden" name="game" value="88" />
+                        <input type="hidden" name="loginType"
+                               value="UID" />
+                        <input type="hidden" name="package" value="" />
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-7 font-weight-bold text-light pt-1">Quantity </div>
+                                <div class="col-5">
+                                    <div class="quantity">
+                                        <button type="button" class="quantity__minus mr-1"><span>-</span></button>
+                                        <input name="quantity" type="text" class="quantity__input" maxlength="3" value="1" />
+                                        <button type="button" class="quantity__plus"><span>+</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body input-section">
+                            <div class="row">
+                                <div class="col-12 s-info d-none cust-price">
+                                    <div>
+                                        <span class="font-weight-bold">Price</span>
+                                    </div>
+                                    <input name="price" type="text" class="order__input" placeholder="Custom Price" />
+                                </div>
+                                    <div class="col-12 price-notice d-none text-center">
+                                        <small class="text-danger font-weight-bold">
+                                            Soft reminder :<br />
+                                            Please note that the price amount to fill in for this product, the currency used will be MYR.
+                                        </small>
+                                    </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="card d-none" id="checkout-container">
+                        <div class="row" style="line-height:30px;">
+                            <div class="col-4 text-white" id="ttlQty"> TOTAL</div>
+                            <div class="col-8 price-details">
+                                <span class="mt-2 text-white" id="price-quantity"></span><br />
+                                <span class="text-white" id="coins" hidden></span>
+                            </div>
+                        </div><br />
+                        <div class="row checkout-btn mt-2">
+                            <div class="col-md-6 col-12 align-add">
+                                <button class="btn bg-white text-custblue2 font-weight-bold" id="add-cart">Add To Cart</button>
+                            </div>
+                            <div class="col-md-6 col-12 align-buy">
+                                <button class="btn btn-danger font-weight-bold ml-3" id="buy-now">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="pt-3 mb-1 text-center">
+                    <button class="btn bg-custblue2 text-white font-weight-bold" id="add-cart">Add To Cart</button> <br />
+                    <button class="btn btn-danger font-weight-bold" id="buy-now">Buy Now</button>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="row pt-4">
+                <div class="col-lg-6 col-12 seo-section">
+                    <div id="item_description">
+<div class="inner">
+<h1><span style="font-size: 24pt;"><span style="text-decoration: underline;"><strong><img src="https://i.imgur.com/zkgQuV7.jpg" alt="" width="100%" height="100%"></strong></span></span></h1>
+<h1><span style="text-decoration: underline; font-size: 18pt;"><strong>How to Top-Up in Gamejus ?</strong></span></h1>
+<p style="line-height: 2;"><span style="font-size: 10pt;">1. Choose the desired Diamonds package.&nbsp;</span><br><span style="font-size: 10pt;">2. Enter your "<strong>Player ID</strong>&ldquo;.</span><br><span style="font-size: 10pt;">3. Click "<strong>Buy Now</strong>"&nbsp;&amp; select your payment channel.</span><br><span style="font-size: 10pt;">4. The Diamonds will be added to your account.</span></p>
+<h1>&nbsp;</h1>
+<h1><span style="font-size: 18pt;"><strong><span style="text-decoration: underline;">Discounted Diamonds&nbsp;!</span></strong></span></h1>
+<p style="text-align: justify; line-height: 1.5;"><span style="font-size: 10pt;">Experience the adrenaline-packed world of Free Fire, where survival hinges on your weapons and skills. Enhance your journey without digging for <span style="font-size: 14pt;"><strong>Free Fire Diamond</strong></span>&nbsp;Codes. We are <strong><span style="font-size: 14pt;">discount</span> </strong>ready for your to experience Free Fire Skins and Costumes as much as you like. Fuel your quest with Free Fire Diamonds, and shine the community with your epic gameplay. Victory awaits&mdash;seize it today!</span></p>
+</div>
+</div>
+                </div>
+            <div class="col-lg-6 col-12">
+                    <div class="embed-custom">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dSpbHY_At4w?si=QOK7qSdC5t5xDG9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="embed-custom">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2gn-yr8Govk?si=lhWmpxs0l1w9Kw8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="embed-custom">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/I8vLP4sEHz0?si=J84cgDN6j4o4HSwR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row pt-4 d-none" id="review-section">
+            <div class="col-12 review-summary">
+                <input type="hidden" id="pg" value="1" />
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <h3>Review</h3>
+                    </div>
+                    <div class="col-8 summary-section">
+                        <div class="summary-frame text-center">
+                            <span id="total-review"></span><br />
+                            <small>Reviews</small>
+                        </div>
+                        <div class="summary-frame text-center">
+                            <span id="summary-rate"></span><br />
+                            <small>Avg Ratings</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 more-review text-center pt-3 d-none">
+                <a href="#" id="more-review">Show More</a>
+            </div>
+            <div class="col-12 end-review text-center pt-3 d-none">
+                You have reach the end of the review
+            </div>
+        </div>
+    </main>
+</div>
+
+<div id="search-section" class="container vh-top d-none">
+    <div class="row" id="search-content"></div>
+</div>
+
+            <footer class="border-top footer bg-custblue">
+    <div class="container text-light">
+        <div class="row py-4">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="font-weight-bold">Payment</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="bank-footer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-12 col-md-4 pb-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="font-weight-bold"><a class="text-light" href="/Home/Aboutus">About Us</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-11 text-wrap small">
+                        <small>
+                            GAMEJUS is a reliable game top up platform.
+                            Our mission is aim to provide professional &amp;
+                            reliable game top-up service for gamer.
+                            We provide 100% legitimate top-up service.
+                            We don't provide refund service for Google / Apple,
+                            customer no need to worry about account being
+                            banned due to refund issues.
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 pb-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="font-weight-bold"><a class="text-light" href="/Home/Contactus">Contact</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 mr-2">
+                        <a href="https://wa.me/60182838126" target="_blank" class="text-light">
+                            <img src="/img/Whatsapp.svg" alt="WhatsApp" width="35" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 pb-3">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="font-weight-bold">Social Media</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 mr-2">
+                        <a href="https://www.facebook.com/gamejusmalaysia/" target="_blank" class="text-light">
+                            <img src="/img/Facebook.svg" alt="Facebook" width="35" />
+                        </a>
+                    </div>
+                    <div class="col-1 mr-2">
+                        <a href="https://www.instagram.com/gamejusmalaysia/" target="_blank" class="text-light">
+                            <img src="/img/Instagram.svg" alt="Instagram" width="35" />
+                        </a>
+                    </div>
+                    <div class="col-1 mr-2">
+                        <a href="https://www.tiktok.com/@gamejusofficial" target="_blank" class="text-light">
+                            <img src="/img/Tiktok.svg" alt="Tiktok" width="35" />
+                        </a>
+                    </div>
+                    <div class="col-1 mr-2">
+                        <a href="https://www.youtube.com/@gamejuscom" target="_blank" class="text-light">
+                            <img src="/img/Youtube.svg" alt="Youtube" width="35" />
+                        </a>
+                    </div>
+                    <div class="col-1 mr-2">
+                        <a href="https://t.me/gamejusofficial" target="_blank" class="text-light">
+                            <img src="/img/Telegram.svg" alt="Telegram" width="35" />
+                        </a>
+                    </div>
+                    <!--<div class="col-2">
+                        <img src="~/img/Redbook.svg" alt="Redbook" width="30" />
+                    </div>
+                    <div class="col-4 small cust-small">
+                        <div class="align-items-center d-flex h-100">
+                            <small class="font-weight-bold">
+                                Redbook
+                            </small>
+                        </div>
+                    </div -->
+                </div>
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-12 text-center text-light font-height-normal">
+                <small class="font-weight-bold">
+                    <a class="text-light" href="/Home/Aboutus">About Us</a> |
+                    <a class="text-light" href="/Home/Contactus">Contact Us</a> |
+                    <a class="text-light" href="/Home/Tnc">Terms &amp; Condition</a> |
+                    <a class="text-light" href="/Home/Privacy">Privacy Policy</a>
+                </small>
+            </div>
+        </div>
+        <div class="row py-2">
+            <div class="col-12 text-center text-light font-height-normal">
+                <small class="font-weight-bold">DISCLAIMER:</small>
+                <small>Registered names and trademarks are the copyright and property of their respective owners.</small><br />
+                <small>Use of this Web site constitutes acceptance of the Terms of use and Privacy Policy. </small>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-12 text-center text-light">
+                2023 &copy; <span class="font-weight-bold">TWO BROTHERHOOD</span>. All rights reserved<br />
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="confirm-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="cust-modal-header text-center">
+                <h3 class="font-weight-boldest text-custblue" id="confirm-title"></h3>
+            </div>
+            <div class="modal-body text-center">
+                <p class="font-weight-bold" id="confirm-msg"></p>
+            </div>
+            <div class="cust-modal-footer">
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <button type="button" class="btn rounded-pill bg-custblue2 text-light" id="confirm-true">OK</button>
+                    </div>
+                    <div class="col-6 text-center">
+                        <button type="button" class="btn rounded-pill bg-custgrey" id="confirm-false">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="alert-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="cust-modal-header text-center">
+                <h3 class="font-weight-boldest text-custblue">Alert</h3>
+            </div>
+            <div class="modal-body text-center">
+                <p class="font-weight-bold" id="alert-msg"></p>
+            </div>
+            <div class="cust-modal-footer">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn rounded-pill bg-custblue2 text-light" id="alert-true">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="notice-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <p class="font-weight-bold" id="notice-msg"></p>
+            </div>
+            <div class="cust-modal-footer">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn rounded-pill bg-custblue2 text-light" id="notice-true">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="dropdown-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="input-group">
+                    <input id="dropdown-filter" class="form-control rounded-pill py-2 pr-5 mr-1 bg-transparent border-secondary" type="text" placeholder="Search">
+                    <div class="input-group-append">
+                        <span class="input-group-text border-0 bg-transparent ml-n5"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="font-weight-bold" id="dropdown-msg"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="game-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="row" id="game-select"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="survey-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="cust-modal-header text-center">
+                <div class="font-weight-bold text-custblue" id="survey-title"></div>
+            </div>
+            <div class="modal-body">
+                <div class="pl-2 font-weight-bold" id="survey-inquiry"></div>
+                <div class="text-left pl-4 pt-3">
+                    <div class="d-none" id="hidden-input">
+                        <input type="hidden" id="survey-category" name="category" value="0" />
+                        <input type="hidden" id="survey-idx" name="idx" value="0" />
+                        <input type="hidden" id="survey-min" name="min" value="1" />
+                        <input type="hidden" id="survey-max" name="max" value="1" />
+                    </div>
+                    <form id="survey-input"></form>
+                </div>
+            </div>
+            <div class="cust-modal-footer">
+                <div class="row">
+                    <div class="col-7"></div>
+                    <div class="col-5 text-center">
+                        <button type="button" class="btn rounded-pill bg-custblue2 text-light" id="survey-true">Submit</button>
+                    </div>
+                    <div class="col-5 text-center">
+                        <button type="button" class="btn rounded-pill bg-custblue2 text-light" id="survey-next">Next</button>
+                    </div>
+                    <!--
+                    <div class="col-6 text-center">
+                        <button type="button" class="btn rounded-pill bg-custgrey" id="survey-false">Skip</button>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+<script defer src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script defer src="/lib/font-awesome/js/all.min.js"></script>
+<script defer src="/lib/paginga/paginga.jquery.js"></script>
+<script defer src="/lib/jquery-ui/jquery-ui.min.js"></script>
+<script src="/js/site.js?v=WHke9KrcfeTt2fTRm__SXL6ut5AaXEGC0oceh6e-l4Y"></script>
+
+    
+    <script type="text/javascript" src="/js/product/apps.js?v=e5ut09TMKdxaYb6IIq4n08fhbXA9QrinZvI0l6KZ0Qw"></script>
+    <script type="text/javascript">
+        var title = "Free Fire Diamond Top Up | Fast Recharge, Recommend By Pro Players";
+        var gameId = "88";
+        var dropDownJson = {};
+        var reviewPage = 1;
+    </script>
+
+</body>
+</html>
