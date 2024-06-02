@@ -1218,7 +1218,78 @@ NO REFFUND SELAGI BELUM 2 BLN‼️</p>
           </div>
         </div>
       </div>
-      
+        <style>
+
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .popup{
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,.3);
+      position: fixed;
+      opacity: 0;
+      transition: all .2s ease-in;
+    }
+
+    .popup__content{
+      width: 310px;
+      text-align: center;
+      position: relative;
+      margin: 20vh auto;
+    }
+
+    .popup__image{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .popup__dismiss{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 35px;
+    }
+
+    .popup--show{
+      opacity: 1;
+    }
+
+    .popup--close{
+      display: none;
+      transition: all .2s ease-out;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="popup">
+    <div class="popup__content">
+      <img class="popup__image" src="https://a.top4top.io/p_22056nwok0.jpg" alt="ICESESI - 01135268529">
+      <img class="popup__dismiss" src="https://i.top4top.io/p_2227qosd01.png" alt="Close">
+    </div>
+  </div>
+
+  <script>
+    var popup = document.querySelector(".popup");
+    var dismiss = document.querySelector(".popup__dismiss");
+
+    setTimeout(function(){
+      popup.classList.add("popup--show");
+    },1000);
+
+    dismiss.addEventListener("click",function(){
+      console.log("kil dismiss");
+      popup.classList.remove("popup--show");
+      popup.classList.add("popup--close");
+    })
+  </script>
+
+
+
+</body>
     </div>
 	
     <!-- JavaScript -->
