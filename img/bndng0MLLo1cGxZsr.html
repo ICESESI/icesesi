@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="JANGAN LANGGAR RULES BNDNG">
+    <link rel="shortcut icon" href="https://h.top4top.io/s_3151vzau50.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONE BNDNG</title>
+    <style>
+    /* Animasi Notifikasi */
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    /* Update notifikasi dengan animasi */
+    .notification {
+        animation: slideDown 0.5s ease-in-out;
+    }
+
+    /* Transition untuk angka countdown */
+    .countdown span {
+        transition: all 0.3s ease-in-out;
+        color: #ff4d4d; /* Warna tukar skek masa countdown bergerak */
+    }
+    /* Animasi Notifikasi */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Update notifikasi dengan animasi */
+.notification {
+    animation: slideDown 0.5s ease-in-out;
+}
+
+/* Transition untuk angka countdown */
+.countdown span {
+    transition: all 0.3s ease-in-out;
+    color: #ff4d4d; /* Warna tukar skek masa countdown bergerak */
+}
+</style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 90%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .notification {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            text-align: center;
+            display: none;
+            z-index: 1000;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .loading img {
+            max-width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .countdown {
+            margin-top: 20px;
+            font-size: 1.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .refund {
+            margin-top: 20px;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .refund-content {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .refund-text {
+            margin-right: 1px;
+        }
+
+        .refund img {
+            max-width: 55px;
+            height: auto;
+        }
+
+        .rules {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: left;
+        }
+
+        .history {
+            margin-top: 30px;
+        }
+
+        .history h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .history-table th, .history-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .history-table th {
+            background-color: #f8f9fa;
+        }
+
+        .history-table td {
+            background-color: #fff;
+        }
+
+        .history-table tr:nth-child(even) td {
+            background-color: #f4f4f4;
+        }
+
+        /* Status Styles */
+        .status-success {
+            color: green;
+        }
+
+        .status-failed {
+            color: red;
+        }
+
+        .error-note {
+            color: red;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <!-- Notifikasi selepas loading -->
+    <div class="notification" id="notification">
+        Proses selesai! Akaun anda berjaya disahkan.
+    </div>
+
+    <div class="container">
+        <h1>DONE BNDNG</h1>
+        <div class="info">
+            <div class="loading">
+                <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Loading..." id="loading-gif">
+            </div>
+            <div>ID Rujukan: <span id="ref-id">XXXXXX</span></div>
+        </div>
+        <div class="refund">
+            <div class="refund-content">
+                <div class="refund-text">Refund on:</div>
+                <img src="https://g.top4top.io/p_3165wdp320.jpeg" alt="Verification Image">
+            </div>
+
+        <div class="countdown">
+            <div id="countdown-timer">
+                <span id="days">00</span> Hari 
+                <span id="hours">00</span> Jam 
+                <span id="minutes">00</span> Minit 
+                <span id="seconds">00</span> Saat
+            </div>
+        </div>
+        <div class="rules">
+            Sila baca <a href="https://icesesi.github.io/icesesi/" target="_blank">rules bndng</a> untuk maklumat lanjut.
+        </div>
+        </div>
+        <div class="note">
+            <p>Nota:- </p>
+        </div>
+        <!-- History Section -->
+        <div class="history">
+            <h2>Butiran Bayaran</h2>
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>Tarikh</th>
+                        <th>Jumlah Bayaran</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="history-body">
+                    <!-- Data akan diisi oleh JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function generateRandomId() {
+            return 'REF-' + Math.random().toString(36).substr(2, 6).toUpperCase();
+        }
+
+        function getOrGenerateId() {
+            let refId = localStorage.getItem('ref_id');
+            if (!refId) {
+                refId = generateRandomId();
+                localStorage.setItem('ref_id', refId);
+            }
+            return refId;
+        }
+
+        function updateCountdown() {
+            const endDate = new Date('2024-10-14T21:00:00');
+            const now = new Date();
+            const timeRemaining = endDate - now;
+
+            if (timeRemaining <= 0) {
+                document.getElementById('countdown-timer').textContent = 'Akaun boleh diperiksa sekarang!';
+                document.getElementById('loading-gif').src = 'https://g.top4top.io/p_3165wdp320.jpeg';
+                document.getElementById('loading-gif').alt = 'Berjaya';
+                
+                // Tunjuk notifikasi lepas loading berjaya
+                document.getElementById('notification').style.display = 'block';
+
+                // Redirect selepas 5 saat
+                setTimeout(() => {
+                    localStorage.clear(); // Menghapuskan semua data dari Local Storage
+                    window.location.href = 'https://icesesi.github.io/icedragonstoree/'; // Redirect ke halaman selesai
+                }, 5000);
+
+                return;
+            }
+
+            const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = String(days).padStart(2, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        }
+        // Fungsi untuk masukkan data history statik
+        function populateHistory() {
+            const historyData = [
+                { date: '2024-09-12', amount: 'RM30', status: 'PROSES' },
+                { date: '-', amount: '-', status: '-', note: 'Transaksi dibatalkan.' },
+                { date: '-', amount: '-', status: '-' },
+            ];
+
+            const historyBody = document.getElementById('history-body');
+            historyData.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.date}</td>
+                    <td>${item.amount}</td>
+                    <td>${item.status}</td>
+                `;
+                historyBody.appendChild(row);
+            });
+        }
+
+        // Mula script
+        document.getElementById('ref-id').textContent = getOrGenerateId();
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
+        populateHistory(); // Populate history bila page load
+    </script>
+</body>
+<footer>
+    <p>© ICESESI 2021</p>
+</footer>
+</html>
